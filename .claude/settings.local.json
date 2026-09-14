@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ssh -i ~/.ssh/id_ed25519 -T git@github.com)",
+      "Bash(ssh -i ~/.ssh/id_rsa -T git@github.com)",
+      "Bash(ssh -T git@github.com)",
+      "Bash(git fetch *)"
+    ]
+  }
+}
